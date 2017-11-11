@@ -46,7 +46,7 @@ export class RunDetailsTests extends Component {
                 </div>
             );
         } else {
-            result = (<NoTestsPlaceholder t={this.props.t} />);
+            result = (<NoTestsPlaceholder t={t} />);
         }
         return result;
     }
